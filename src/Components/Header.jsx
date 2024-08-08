@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import React, { useState, useEffect } from "react";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 // Define responsive breakpoints for the carousel
 const responsive = {
@@ -30,19 +30,18 @@ export default function Header() {
   const handleResize = () => {
     if (window.innerWidth < 1024) {
       setShowArrows(false);
-      setShowDots(true);
+      setShowDots(flase);
     } else {
       setShowArrows(true);
-      setShowDots(false);
+      setShowDots(true);
     }
   };
 
-  // Add event listener for window resize
   useEffect(() => {
     handleResize();
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -50,8 +49,8 @@ export default function Header() {
     <Carousel
       responsive={responsive}
       infinite={true}
-      arrows={showArrows} // Show arrows conditionally
-      showDots={showDots} // Show dots conditionally
+      arrows={showArrows}
+      showDots={showDots}
     >
       <div className="handle5">
         <div>
@@ -209,11 +208,11 @@ const style = `
     .Header_text {
       flex: 1;
       margin-left: 20px;
-      text-align: left; /* Align text to the start for larger screens */
-      max-width: 500px; /* Set maximum width for the text box */
-      padding: 20px; /* Add padding inside the box */
-      background-color: rgba(255, 255, 255, 0.8); /* Optional: background color for better visibility */
-      border-radius: 8px; /* Optional: rounded corners for the box */
+      text-align: left; 
+      max-width: 500px; 
+      padding: 20px; 
+      background-color: rgba(255, 255, 255, 0.8); 
+      border-radius: 8px; 
       
     }
 
@@ -233,7 +232,6 @@ const style = `
   }
 `;
 
-// Adding the styles to the document
-const styleElement = document.createElement('style');
+const styleElement = document.createElement("style");
 styleElement.textContent = style;
 document.head.appendChild(styleElement);
