@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Trialclass() {
   return (
     <div className="Container">
@@ -15,7 +16,7 @@ export default function Trialclass() {
           <button className="join_now_button">Join Now</button>
         </div>
         <div className="Trial_girl">
-          <img src="public/Trial_Class_Girl.png" alt="Trial Class Girl" />
+          <img src="/Trial_Class_Girl.png" alt="Trial Class Girl" />
         </div>
       </div>
       <div className="Below_Dance"></div>

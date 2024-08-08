@@ -80,7 +80,7 @@ body {
 
   .nav-link {
     color: white; /* White color for nav links in the mobile menu */
-    padding-top: 20px;
+    
   }
 
   .menu-toggle {
@@ -99,38 +99,10 @@ body {
     margin: 0; /* Ensure no margin */
   }
 }
+
 /* Header section starts */
-.handel5 {
+.handel5{
   display: flex;
-  flex-direction: row; /* Horizontal layout for desktop and larger screens */
-  align-items: center;
-  justify-content: center;
-  height: 100vh; /* Full height for the slider */
-  position: relative;
-  padding: 0 20px; /* Padding for responsiveness */
-}
-
-.handel5 img {
-  flex: 1; /* Image takes up half the space */
-  width: 100%;
-  height: auto;
-}
-
-.Header_text {
-  flex: 1; /* Text takes up the other half */
-  padding: 20px;
-  text-align: left; /* Align text to the left for larger screens */
-  color: white;
-  z-index: 1;
-  position: relative;
-}
-
-.herotext {
-  font-size: 2rem; /* Large text for desktops */
-}
-
-.herotext1 {
-  font-size: 1.2rem; /* Supporting text */
 }
 
 .join_now_button {
@@ -142,56 +114,36 @@ body {
   border: none;
   color: white;
   font-weight: bold;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 16px; /* Ensure text size is consistent */
+  cursor: pointer; /* Change cursor to pointer for better UX */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+
 }
 
 .join_now_button:hover {
-  background-color: #595447;
+  background-color: #595447; /* Darker shade on hover */
 }
 
-@media (max-width: 768px) {
-  .handel5 {
-    flex-direction: column; /* Stack vertically for tablets */
-    text-align: center; /* Center text on tablets */
-  }
 
-  .Header_text {
-    width: auto;
-    padding: 10px;
-  }
 
-  .herotext {
-    font-size: 1.5rem; /* Smaller text for tablets */
-  }
 
-  .herotext1 {
-    font-size: 1rem; /* Smaller text for tablets */
-  }
 
-  .join_now_button {
-    width: 150px; /* Smaller button for tablets */
-  }
-}
 
-@media (max-width: 480px) {
-  .herotext {
-    font-size: 1.2rem; /* Smaller text for mobile */
-  }
 
-  .herotext1 {
-    font-size: 0.9rem; /* Smaller text for mobile */
-  }
 
-  .join_now_button {
-    width: 120px; /* Smaller button for mobile */
-  }
-}
+
+
+
+
+
+
+
+
+
 
 /* Our Team section */
 .Ourteam {
-  height: 500px;
+  height: 800px;
   border: 1px solid black; /* Fixed border property */
   background-image: url("BG.png");
   background-size: cover;
@@ -206,20 +158,14 @@ body {
 }
 
 .Ourteam_inside {
-  height: 300px;
   position: absolute; /* Position absolutely within .Ourteam */
-  top: 140%; /* Adjust vertical position */
+  bottom: 0; /* Align to bottom */
   left: 50%; /* Center horizontally within .Ourteam */
-  transform: translate(
-    -50%,
-    -50%
-  ); /* Offset by 50% of its own size to center */
+  transform: translateX(-50%); /* Offset by 50% of its own size to center horizontally */
   z-index: 1;
-  background-image: url("Shape.png");
-  width: 1480px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100%; /* Make sure it takes full width */
   display: flex;
+  max-width: 1485px;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -244,7 +190,20 @@ body {
 }
 
 /* Responsive styles */
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
+  .Ourteam {
+    height: 500px;
+  }
+
+  .Ourteam_inside {
+    background-image: url("Shape.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 1199px) {
   .Ourteam {
     height: 400px;
   }
@@ -252,7 +211,6 @@ body {
   .Ourteam_inside {
     background-image: none;
     width: auto;
-    top: 240%; /* Adjust vertical position */
   }
 
   .Founders {
@@ -272,7 +230,6 @@ body {
   .Ourteam_inside {
     background-image: none;
     width: auto;
-    top: 300%; /* Adjust vertical position */
   }
 
   .Founders {
@@ -294,7 +251,6 @@ body {
   .Ourteam_inside {
     background-image: none;
     width: auto;
-    top: 300%; /* Adjust vertical position */
   }
 
   .FounderTeam img {
@@ -302,33 +258,72 @@ body {
   }
 }
 
-/*Let's Dance Section*/
 
+/*Let's Dance Section*/
 /* Dance section */
 .Dance {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 20px; /* Add some gap between the image and text */
-  padding: 20px; /* Add some padding */
+  gap: 20px; /* Default gap */
+  padding: 20px; /* Padding around the section */
 }
 
 .Girldance img {
   height: 350px;
   width: 350px;
   object-fit: cover; /* Ensure the image covers the entire area */
+
+}
+
+.Dfgh {
+  font-size: 50px;
 }
 
 .DanceText {
-  max-width: 500px; /* Adjust as needed */
+  max-width: 500px; /* Maximum width for text */
+  color: #716c53;
+}
+
+.join_now_button {
+  padding: 10px 20px; /* Button padding */
+  font-size: 16px; /* Button font size */
+  background-color: #716c53; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Button border radius */
+  cursor: pointer; /* Cursor pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.join_now_button:hover {
+  background-color: #5a4a3d; /* Darker button color on hover */
 }
 
 /* Responsive styles */
-@media (max-width: 768px) {
+@media (min-width: 1200px) { /* Large screens */
+  .Dance {
+    gap: 100px; /* Larger gap for large screens */
+  }
+  .Girldance{
+    margin-top: 100px;
+  }
+
+}
+
+@media (max-width: 1200px) and (min-width: 768px) { /* Medium to large screens (desktops and laptops) */
+  .Dance {
+    gap: 30px; /* Medium gap for desktops and laptops */
+  }
+
+}
+
+@media (max-width: 768px) { /* Tablets and smaller screens */
   .Dance {
     flex-direction: column;
     align-items: center;
+    gap: 20px; /* Reduce gap on smaller screens */
   }
 
   .Girldance img {
@@ -340,6 +335,23 @@ body {
     text-align: center; /* Center text on smaller screens */
   }
 }
+
+@media (max-width: 480px) { /* Mobile devices */
+  .Dance {
+    gap: 15px; /* Further reduce gap on very small screens */
+  }
+
+  .Girldance img {
+    height: 250px;
+    width: 250px;
+    
+  }
+
+  .DanceText {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+
 
 .Container {
   position: relative;
@@ -434,36 +446,54 @@ body {
 
 
 
-/* Main Statistic container */
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Statistic container */
+.Statistics{
+  margin-top: 50px;
+}
 .Statistic {
   height: 500px;
-  border: 1px solid black; /* Fixed border property */
-  background-image: url("./BG.png"); /* Adjust path if needed */
+  border: 1px solid black;
+  background-image: url("./BG.png");
   background-size: cover;
   position: relative;
-  text-align: center; /* Center text horizontally */
+  text-align: center;
   padding: 20px;
-  margin-top: 300px; /* Adjust spacing as needed */
+  margin-top: 300px;
 }
 
+/* Statistic text */
 .Statistic p {
   margin: 0;
-  padding: 10px 0; /* Adjust padding as needed */
+  padding: 10px 0;
 }
 
 /* Statistic inside container */
 .Statistic_inside {
   height: 300px;
-  position: absolute; /* Position absolutely within .Statistic */
-  top: 365%; /* Adjust vertical position */
-  left: 50%; /* Center horizontally within .Statistic */
-  transform: translate(-50%, -50%); /* Offset by 50% of its own size to center */
+  position: absolute;
+  top: 390%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
-  background-image: url("./Shape.png"); /* Adjust path if needed */
-  width: 1482px; /* Adjust width as needed */
+  background-image: url("./Our_Statistic_Shape.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 1485px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -475,60 +505,66 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px; /* Adjust gap between images */
-}
-.Numbertext{
-  font-size: 40px;
-  font-weight: bold;
+  gap: 50px;
+  color: rgb(9, 9, 9); /* Ensures the text is visible */
 }
 
 /* Individual number item */
 .number-item {
-  text-align: center; /* Center text horizontally within each item */
-  color: white; /* Text color */
+  text-align: center;
+}
+
+.Numbertext {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
   .Statistic {
-    height: auto; /* Adjust height for smaller screens */
+    height: auto;
     padding: 10px;
-    
-    margin-top: 150px; /* Adjust spacing */
+    margin-top: 150px;
   }
 
   .Statistic_inside {
-    top: 90%; /* Adjust vertical position */
-    width: 95%; /* Adjust width for smaller screens */
+    top: 90%;
+    width: 95%;
+    background-image: none;
   }
 
   .numbers {
-    flex-direction: column; /* Stack items vertically */
-    gap: 20px; /* Adjust gap */
+    flex-direction: column;
+    gap: 20px;
   }
 }
 
 @media (max-width: 480px) {
   .Statistic {
+    height: 600px;
     padding: 10px;
-    height: 700px;
-    margin-top: 300px; /* Adjust spacing */
+    margin-top: 300px;
   }
 
   .Statistic_inside {
-    top: 805%; /* Adjust vertical position */
+    top: 475%;
+    width: 100%;
     background-image: none;
-    width: fit-content; /* Adjust width for very small screens */
   }
 
   .numbers {
-    gap: 10px; /* Adjust gap */
+    gap: 10px;
   }
 
-  .number-item p {
-    font-size: 14px; /* Adjust font size for readability on small screens */
+  .Numbertext {
+    font-size: 30px;
+  }
+
+  .Statistic p {
+    padding: 5px 0;
   }
 }
+
 
 /* Main ClassLevel container */
 .ClassLevel {

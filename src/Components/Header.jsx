@@ -58,7 +58,8 @@ export default function Header() {
           <img src="/Slider1.png" alt="Trial Class Girl" />
         </div>
         <div className="Header_text">
-          <p className="herotext">DANCE STUDIO</p>
+          <p className="herotext">DANCE </p>
+          <p className="herotext">STUDIO</p>
           <p className="herotext1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
           </p>
@@ -103,13 +104,14 @@ const style = `
     flex: 1;
     padding: 20px;
     text-align: left;
-    color: black;
+    color: #716c53;
     z-index: 1;
     position: relative;
   }
 
   .herotext {
-    font-size: 2rem;
+    font-size: 5rem;
+    font-style:bold;
   }
 
   .herotext1 {

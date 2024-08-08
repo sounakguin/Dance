@@ -5,10 +5,10 @@ export default function Dance() {
     <div>
       <div className="Dance">
         <div className="Girldance">
-          <img src="public/Girldance.png" alt="Girl dancing" />
+          <img src="/Girldance.png" alt="Girl dancing" />
         </div>
         <div className="DanceText">
-          <p>Let's Dance</p>
+          <p className="Dfgh">Let's Dance</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
             assumenda ab earum sed deserunt corporis minus vel sapiente, nam
