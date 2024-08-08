@@ -787,9 +787,14 @@ body {
 }
 
 @media (max-width: 480px) {
+  .DFQ{
+    position: relative;
+  }
   .DFF {
-    height: 75vh;
+    height: 70vh;
     width: fit-content;
+    position: relative;
+    bottom: 4px;
   }
 
   .DFF input,

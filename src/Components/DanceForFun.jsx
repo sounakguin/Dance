@@ -12,7 +12,7 @@ export default function DanceForFun() {
   };
 
   return (
-    <div>
+    <div className='DFQ'>
       <div className="DFF">
         <p className='DFF1'>Dance For Fun</p>
         <p>
