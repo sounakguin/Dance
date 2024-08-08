@@ -70,11 +70,11 @@ body {
   }
 
   .menu.open {
-    display: flex; 
+    display: flex;
   }
 
   .nav-link {
-    color: white; 
+    color: white;
   }
 
   .menu-toggle {
@@ -84,13 +84,13 @@ body {
   .handel {
     display: flex;
     align-items: center;
-    margin: 0; 
-    padding: 0; 
+    margin: 0;
+    padding: 0;
   }
 
   .handel1 {
-    padding-left: 0; 
-    margin: 0; 
+    padding-left: 0;
+    margin: 0;
   }
 }
 
@@ -108,9 +108,9 @@ body {
   border: none;
   color: white;
   font-weight: bold;
-  font-size: 16px; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease; 
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .join_now_button:hover {
@@ -120,28 +120,26 @@ body {
 /* Our Team section */
 .Ourteam1 {
   height: 800px;
-  border: 1px solid black; 
+  border: 1px solid black;
   background-image: url("/BG.png");
   background-size: cover;
   position: relative;
-  text-align: center; 
+  text-align: center;
   padding: 20px;
 }
 
 .Ourteam1 p {
   margin: 0;
-  padding: 10px 0; 
+  padding: 10px 0;
 }
 
 .Ourteam_inside {
-  position: absolute; 
-  bottom: 0; 
-  left: 50%; 
-  transform: translateX(
-    -50%
-  ); 
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
-  width: 100%; 
+  width: 100%;
   display: flex;
   max-width: 1485px;
   justify-content: center;
@@ -153,7 +151,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px; 
+  gap: 50px;
 }
 
 .FounderTeam {
@@ -163,10 +161,9 @@ body {
 }
 
 .FounderTeam img {
-  max-width: 100%; 
-  height: auto; 
+  max-width: 100%;
+  height: auto;
 }
-
 
 @media (min-width: 1200px) {
   .Ourteam1 {
@@ -176,14 +173,14 @@ body {
     justify-items: center;
     align-items: center;
   }
-  .founder-name{
+  .founder-name {
     font-size: 35px;
     font-weight: bold;
     color: #716c53;
   }
-.founder-role{
-  color: #716c53;
-}
+  .founder-role {
+    color: #716c53;
+  }
   .ourteam-title {
     font-size: 50px;
     font-weight: bold;
@@ -216,8 +213,6 @@ body {
     gap: 30px;
   }
 
- 
-
   .FounderTeam img {
     height: 150px;
   }
@@ -248,13 +243,12 @@ body {
     height: 800px;
     width: fit-content;
   }
-  .founder-name{
-    
+  .founder-name {
     color: #716c53;
   }
-.founder-role{
-  color: #716c53;
-}
+  .founder-role {
+    color: #716c53;
+  }
   .Ourteam_inside {
     background-image: none;
     width: auto;
@@ -272,14 +266,14 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 20px; 
-  padding: 20px; 
+  gap: 20px;
+  padding: 20px;
 }
 
 .Girldance img {
   height: 350px;
   width: 350px;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .Dfgh {
@@ -287,30 +281,28 @@ body {
 }
 
 .DanceText {
-  max-width: 500px; 
+  max-width: 500px;
   color: #716c53;
 }
 
 .join_now_button {
   padding: 10px 20px;
-  font-size: 16px; 
+  font-size: 16px;
   background-color: #716c53;
-  color: white; 
-  border: none; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  transition: background-color 0.3s; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .join_now_button:hover {
-  background-color: #5a4a3d; 
+  background-color: #5a4a3d;
 }
 
-
 @media (min-width: 1200px) {
-  
   .Dance {
-    gap: 100px; 
+    gap: 100px;
   }
   .Girldance {
     margin-top: 100px;
@@ -318,18 +310,16 @@ body {
 }
 
 @media (max-width: 1200px) and (min-width: 768px) {
-
   .Dance {
     gap: 30px;
   }
 }
 
 @media (max-width: 768px) {
-  
   .Dance {
     flex-direction: column;
     align-items: center;
-    gap: 20px; 
+    gap: 20px;
   }
 
   .Girldance img {
@@ -338,14 +328,13 @@ body {
   }
 
   .DanceText {
-    text-align: center; 
+    text-align: center;
   }
 }
 
 @media (max-width: 480px) {
- 
   .Dance {
-    gap: 15px; 
+    gap: 15px;
   }
 
   .Girldance img {
@@ -354,7 +343,7 @@ body {
   }
 
   .DanceText {
-    font-size: 14px; 
+    font-size: 14px;
   }
 }
 
@@ -376,7 +365,7 @@ body {
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  top: 7px; 
+  top: 7px;
 }
 
 .Up_Dance {
@@ -384,7 +373,7 @@ body {
   background-size: cover;
   background-position: middle;
   background-repeat: no-repeat;
-  top: 300px; 
+  top: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -393,19 +382,19 @@ body {
 
 .Below_Dance {
   width: 100%;
-  height: 300px; 
+  height: 300px;
   background-image: url("/NewProject.png");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  position: relative; 
-  top: 600px; 
+  position: relative;
+  top: 600px;
 }
 
 .Trial_girl img {
   max-width: 100%;
-  height: auto; 
-  max-height: 400px; 
+  height: auto;
+  max-height: 400px;
 }
 
 @media (min-width: 1200px) {
@@ -442,7 +431,6 @@ body {
   }
 }
 
-
 @media (max-width: 768px) {
   .Bottem_Dance,
   .Up_Dance {
@@ -457,7 +445,7 @@ body {
   }
 
   .Trial_girl img {
-    max-height: 200px; 
+    max-height: 200px;
   }
 
   .Content {
@@ -468,12 +456,12 @@ body {
 @media (max-width: 480px) {
   .Bottem_Dance,
   .Up_Dance {
-    height: 80px; 
+    height: 80px;
     width: fit-content;
   }
 
   .Content {
-    font-size: 14px; 
+    font-size: 14px;
   }
   .Dancegame {
     font-size: 50px;
@@ -529,7 +517,6 @@ body {
   color: #716c53;
 }
 
-
 @media (min-width: 1200px) {
   .Ourteam {
     height: 500px;
@@ -572,15 +559,15 @@ body {
   .OurteamStats {
     background-image: none;
     width: auto;
-    flex-direction: row; 
+    flex-direction: row;
   }
 
   .FounderStat {
-    gap: 10px; 
+    gap: 10px;
   }
 
   .StatNumber {
-    font-size: 22px; 
+    font-size: 22px;
   }
 }
 
@@ -592,12 +579,12 @@ body {
   .OurteamStats {
     background-image: none;
     width: auto;
-    flex-direction: column; 
-    gap: 20px; 
+    flex-direction: column;
+    gap: 20px;
   }
 
   .StatNumber {
-    font-size: 20px; 
+    font-size: 20px;
   }
 }
 
@@ -621,15 +608,14 @@ body {
 
 /* Main ClassLevel container */
 .ClassLevel {
-  height: auto; 
+  height: auto;
   border: 1px solid black;
   background-color: white;
   background-size: cover;
   position: relative;
-  text-align: center; 
-  padding: 20px; 
+  text-align: center;
+  padding: 20px;
 }
-
 
 .C_level {
   margin-bottom: 20px;
@@ -638,28 +624,26 @@ body {
   font-size: 40px;
 }
 
-
 .C_box {
   display: flex;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; 
+  gap: 20px;
 }
 
-
 .Allboxs {
-  flex: 1 1 300px; 
+  flex: 1 1 300px;
   max-width: 300px;
-  border: 1px solid #ddd; 
-  padding: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  border-radius: 8px; 
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   text-align: center;
 }
 
 .Allboxs img {
-  height: auto; 
-  max-width: 100%; 
+  height: auto;
+  max-width: 100%;
 }
 
 .join_now_button {
@@ -671,58 +655,67 @@ body {
   border: none;
   color: white;
   font-weight: bold;
-  font-size: 16px; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  transition: background-color 0.3s ease; 
-  margin-top: 20px; 
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
 }
 
 .join_now_button:hover {
-  background-color: #595447; 
+  background-color: #595447;
 }
-
 
 @media (max-width: 768px) {
   .ClassLevel {
-    padding: 10px; 
+    padding: 10px;
   }
 
   .C_box {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .Allboxs {
     width: 100%;
-    max-width: none; 
+    max-width: none;
   }
 }
 
 @media (max-width: 480px) {
   .Allboxs {
     width: fit-content;
+
+  }
+  .C_box{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
   }
   .join_now_button {
-    font-size: 14px; 
-    padding: 8px 16px; 
+    font-size: 14px;
+    padding: 8px 16px;
   }
 }
 
-
 .Star_box {
-  position: relative; 
-  width: 100%; 
-  height: auto; 
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .Star_Girl {
-  width: 100%; 
-  height: 840px; 
+  width: 100%;
+  height: 840px;
   color: white;
-  background-image: url("/Quotes_BG.png"); 
-  background-size: cover; 
-  background-position: center top; 
-  position: relative; 
+  background-image: url("/Quotes_BG.png");
+  background-size: cover;
+  background-position: center top;
+  position: relative;
   background-repeat: no-repeat;
   text-align: center;
   display: flex;
@@ -737,7 +730,7 @@ body {
 
 @media (max-width: 768px) {
   .Star_Girl {
-    height: 70vh; 
+    height: 70vh;
   }
 }
 
@@ -750,16 +743,16 @@ body {
 /* Dance For Fun Section Starts */
 .DFF {
   width: 1486px;
-  height: 500px; 
+  height: 500px;
   background-image: url("/Dance_For_Fun_BG.png");
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: center; 
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  text-align: center; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 20px;
 }
 .DFF1 {
@@ -768,51 +761,51 @@ body {
 
 @media (max-width: 768px) {
   .DFF {
-    height: 70vh; 
+    height: 70vh;
     width: fit-content;
   }
 
   .DFF input,
   .DFF button {
     width: 80%;
-    margin: 10px 0; 
+    margin: 10px 0;
   }
 }
 
 @media (max-width: 480px) {
   .DFF {
     height: 70vh;
-    width: fit-content; 
+    width: fit-content;
   }
 
   .DFF input,
   .DFF button {
-    width: 90%; 
+    width: 90%;
   }
 }
 
 .DFF p {
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 
 .DFF input {
   padding: 10px;
   border: none;
   border-radius: 5px;
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 
 .DFF button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #f77f00; 
+  background-color: #f77f00;
   color: white;
   cursor: pointer;
 }
 
 .DFF button:hover {
-  background-color: #e76f51; 
+  background-color: #e76f51;
 }
 
 /*Footer Section starts*/
