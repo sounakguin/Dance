@@ -1,31 +1,27 @@
-import React from 'react';
+import React from "react";
 
-export default function Statistics() {
+export default function Ourteam() {
   return (
-    <div className="Statistics">
-      <div className="Statistic">
-        <p className="stat-title">Our Team</p>
-        <p className="stat-description">
+    <div className="Ourteam">
+      <div className="OurteamContent">
+        <p className="OurteamTitle">Our Team</p>
+        <p className="OurteamDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
           laudantium optio cupiditate aliquam, vitae molestias, hic nemo
-        </p>
-        <p className="stat-description">
           voluptates laboriosam nihil corrupti eius quam velit adipisci
           molestiae repellendus, architecto sequi porro?
         </p>
-      </div>
-      <div className="Statistic_inside">
-        <div className="numbers">
-          <div className="number-item">
-            <p className="Numbertext">1K</p>
+        <div className="OurteamStats">
+          <div className="FounderStat">
+            <p className="StatNumber">1K</p>
             <p>Member</p>
           </div>
-          <div className="number-item">
-            <p className="Numbertext">200</p>
+          <div className="FounderStat">
+            <p className="StatNumber">200</p>
             <p>Class</p>
           </div>
-          <div className="number-item">
-            <p className="Numbertext">5</p>
+          <div className="FounderStat">
+            <p className="StatNumber">5</p>
             <p>Country</p>
           </div>
         </div>

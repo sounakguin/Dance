@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-section logo-section">
-        <img src="" alt="Your Logo" className="logo" />
+      <p>LOGO</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.</p>
         <div className="social-icons">
           <a href="#"><FontAwesomeIcon icon={faInstagram} /></a>
@@ -17,8 +17,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-section about-section">
-        <h3>About</h3>
+        
         <ul>
+        <li className='test'>About</li>
           <li><a href="#">History</a></li>
           <li><a href="#">Our Team</a></li>
           <li><a href="#">Brand Guidelines</a></li>
@@ -27,8 +28,9 @@ export default function Footer() {
         </ul>
       </div>
       <div className="footer-section services-section">
-        <h3>Services</h3>
+       
         <ul>
+        <li className='test'>Services</li>
           <li><a href="#">How to Order</a></li>
           <li><a href="#">Our Product</a></li>
           <li><a href="#">Order Status</a></li>
@@ -37,8 +39,9 @@ export default function Footer() {
         </ul>
       </div>
       <div className="footer-section other-section">
-        <h3>Other</h3>
+        
         <ul>
+        <li className='test'>Other</li>
           <li><a href="#">Contact Us</a></li>
           <li><a href="#">Help</a></li>
           <li><a href="#">Privacy</a></li>

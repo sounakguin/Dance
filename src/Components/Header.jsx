@@ -53,20 +53,19 @@ export default function Header() {
       arrows={showArrows} // Show arrows conditionally
       showDots={showDots} // Show dots conditionally
     >
-      <div className="handel5">
+      <div className="handle5">
         <div>
           <img src="/Slider1.png" alt="Trial Class Girl" />
         </div>
         <div className="Header_text">
-          <p className="herotext">DANCE </p>
-          <p className="herotext">STUDIO</p>
+          <p className="herotext">DANCE STUDIO</p>
           <p className="herotext1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur
           </p>
           <button className="join_now_button">Join Now</button>
         </div>
       </div>
-      <div className="handel5">
+      <div className="handle5">
         <div>
           <img src="/Slider1.png" alt="Trial Class Girl" />
         </div>
@@ -84,7 +83,7 @@ export default function Header() {
 
 // CSS Styles
 const style = `
-  .handel5 {
+  .handle5 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -94,7 +93,7 @@ const style = `
     padding: 0 20px;
   }
 
-  .handel5 img {
+  .handle5 img {
     flex: 1;
     width: 100%;
     height: auto;
@@ -111,7 +110,7 @@ const style = `
 
   .herotext {
     font-size: 5rem;
-    font-style:bold;
+    font-weight: bold;
   }
 
   .herotext1 {
@@ -137,7 +136,7 @@ const style = `
   }
 
   @media (max-width: 768px) {
-    .handel5 {
+    .handle5 {
       flex-direction: column;
       text-align: center;
     }
@@ -193,26 +192,45 @@ const style = `
     }
   }
 
-  /* Center content on all screens */
+  /* Styles for larger screens */
   @media (min-width: 1025px) {
-    .handel5 {
+    .handle5 {
       justify-content: center;
       align-items: center;
+      gap: 450px;
+    
     }
 
-    .handel5 img {
+    .handle5 img {
       flex: 1;
-      margin-right: 20px;
+      margin-left: 20px;
     }
 
     .Header_text {
       flex: 1;
       margin-left: 20px;
-      text-align: center;
+      text-align: left; /* Align text to the start for larger screens */
+      max-width: 500px; /* Set maximum width for the text box */
+      padding: 20px; /* Add padding inside the box */
+      background-color: rgba(255, 255, 255, 0.8); /* Optional: background color for better visibility */
+      border-radius: 8px; /* Optional: rounded corners for the box */
+      
+    }
+
+    .herotext {
+      font-size: 5rem;
+      font-weight: bold;
+        margin: 0 auto;
+    }
+
+    .herotext1 {
+      font-size: 1.2rem;
+    }
+
+    .join_now_button {
+      width: 200px;
     }
   }
-
-  
 `;
 
 // Adding the styles to the document
