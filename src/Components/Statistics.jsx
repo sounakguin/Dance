@@ -14,15 +14,15 @@ export default function Ourteam() {
         <div className="OurteamStats">
           <div className="FounderStat">
             <p className="StatNumber">1K</p>
-            <p>Member</p>
+            <p className="Star_text">Member</p>
           </div>
           <div className="FounderStat">
             <p className="StatNumber">200</p>
-            <p>Class</p>
+            <p className="Star_text">Class</p>
           </div>
           <div className="FounderStat">
             <p className="StatNumber">5</p>
-            <p>Country</p>
+            <p className="Star_text">Country</p>
           </div>
         </div>
       </div>
