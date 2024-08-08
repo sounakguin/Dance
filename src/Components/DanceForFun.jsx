@@ -5,10 +5,8 @@ export default function DanceForFun() {
   const [message, setMessage] = useState('');
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Prevent page refresh on form submission
-    // You can add further form submission logic here (e.g., send the email to a server)
-
-    // Show thank-you message and clear the input field
+    event.preventDefault(); 
+   
     setMessage('Thank you for subscribing!');
     setEmail('');
   };

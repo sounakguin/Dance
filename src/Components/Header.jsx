@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-// Define responsive breakpoints for the carousel
+
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
@@ -26,14 +26,14 @@ export default function Header() {
   const [showArrows, setShowArrows] = useState(true);
   const [showDots, setShowDots] = useState(true);
 
-  // Function to handle window resize
+  
   const handleResize = () => {
     if (window.innerWidth < 1024) {
       setShowArrows(false);
-      setShowDots(flase);
+      setShowDots(false);
     } else {
       setShowArrows(true);
-      setShowDots(true);
+      setShowDots(false);
     }
   };
 
@@ -80,7 +80,7 @@ export default function Header() {
   );
 }
 
-// CSS Styles
+
 const style = `
   .handle5 {
     display: flex;

@@ -8,16 +8,16 @@ export default function ClassLevel() {
       </div>
       <div className="C_box">
         <div className="Allboxs">
-          <p>Dance</p>
-          <img src="/Class_Level_Girl.png" alt="Dance" />
-          <p>$100.00</p>
+          <p>Basic</p>
+          <img src="/Class_Level_Girl.png" alt="Basic" />
+          <p>$50.00</p>
           <p>Lorem ipsum dolor sit amet</p>
           <button className="join_now_button">Join Now</button>
         </div>
         <div className="Allboxs">
-          <p>Basic</p>
-          <img src="/Class_Level_Girl.png" alt="Basic" />
-          <p>$50.00</p>
+          <p>Dance</p>
+          <img src="/Class_Level_Girl.png" alt="Dance" />
+          <p>$100.00</p>
           <p>Lorem ipsum dolor sit amet</p>
           <button className="join_now_button">Join Now</button>
         </div>

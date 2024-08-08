@@ -20,11 +20,8 @@ function App() {
         <Dance />
         <Trialclass />
         <Statistics />
-
         <Classlevel />
-
         <AidenRamsey />
-
         <DanceForFun />
         <Footer />
       </div>

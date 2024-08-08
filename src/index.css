@@ -40,6 +40,9 @@ body {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 1rem;
+  font-weight: bold;
+
+
 }
 
 .nav-link:hover {
@@ -523,6 +526,7 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
+    
   }
   .OurteamTitle {
     font-size: 50px;
@@ -539,15 +543,20 @@ body {
     background-repeat: no-repeat;
     height: 300px;
     width: 1485px;
-    bottom: 50px;
+    bottom: 30px;
     flex-direction: row;
     font-size: 50px;
+    
   }
   .FounderStat {
+    padding-top: 50px;
     font-size: 50px;
+    margin-bottom: 0%;
+    
   }
   .StatNumber {
     font-size: 50px;
+    margin: 0 auto;
   }
 }
 
@@ -590,7 +599,7 @@ body {
 
 @media (max-width: 480px) {
   .Ourteam {
-    height: 500px;
+    height: 600px;
     width: fit-content;
   }
 
@@ -609,7 +618,7 @@ body {
 /* Main ClassLevel container */
 .ClassLevel {
   height: auto;
-  border: 1px solid black;
+ 
   background-color: white;
   background-size: cover;
   position: relative;
@@ -619,9 +628,13 @@ body {
 
 .C_level {
   margin-bottom: 20px;
+  color: #716c53;
+  font-weight: bold;
 }
 .C_Name {
   font-size: 40px;
+  color: #716c53;
+  font-weight: bold;
 }
 
 .C_box {
@@ -724,6 +737,7 @@ body {
   align-items: center;
 }
 .Star_Girl_text {
+  font-size: 35px;
   color: white;
   font-weight: bold;
 }
@@ -799,13 +813,13 @@ body {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: #f77f00;
+  background-color: #716c53;
   color: white;
   cursor: pointer;
 }
 
 .DFF button:hover {
-  background-color: #e76f51;
+  background-color: #595447;
 }
 
 /*Footer Section starts*/
