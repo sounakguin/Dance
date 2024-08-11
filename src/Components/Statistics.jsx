@@ -16,10 +16,12 @@ export default function Ourteam() {
             <p className="StatNumber">1K</p>
             <p className="Star_text">Member</p>
           </div>
+          <div className="Divider"></div>
           <div className="FounderStat">
             <p className="StatNumber">200</p>
             <p className="Star_text">Class</p>
           </div>
+          <div className="Divider"></div>
           <div className="FounderStat">
             <p className="StatNumber">5</p>
             <p className="Star_text">Country</p>

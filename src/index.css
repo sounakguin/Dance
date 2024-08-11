@@ -523,6 +523,14 @@ body {
   color: #716c53;
 }
 
+/* Divider styling */
+.Divider {
+  display: none;
+  width: 1px;
+  height: 50px;
+  background-color: #716c53;
+}
+
 @media (min-width: 1200px) {
   .Ourteam {
     height: 500px;
@@ -558,6 +566,13 @@ body {
     font-size: 50px;
     margin: 0 auto;
   }
+
+  /* Show vertical dividers on larger screens */
+  .Divider {
+    display: block;
+    height: 100px; /* Adjust height as needed */
+    background-color: #716c53;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -578,6 +593,11 @@ body {
   .StatNumber {
     font-size: 22px;
   }
+
+  /* Hide divider on smaller screens */
+  .Divider {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -594,6 +614,11 @@ body {
 
   .StatNumber {
     font-size: 20px;
+  }
+
+  /* Hide divider on smaller screens */
+  .Divider {
+    display: none;
   }
 }
 
@@ -613,7 +638,13 @@ body {
   .StatNumber {
     font-size: 18px;
   }
+
+  /* Hide divider on smaller screens */
+  .Divider {
+    display: none;
+  }
 }
+
 
 /* Main ClassLevel container */
 .ClassLevel {
@@ -796,7 +827,7 @@ body {
     height: 70vh;
     width: fit-content;
     position: relative;
-    bottom: 4px;
+    bottom: 5px;
   }
 
   .DFF input,
