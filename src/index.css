@@ -142,7 +142,6 @@ body {
   z-index: 1;
   width: 100%;
   display: flex;
-  max-width: 1485px;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -249,9 +248,16 @@ body {
     width: fit-content;
   }
   .founder-name {
+    font-size: 22px;
     color: #716c53;
   }
   .founder-role {
+    color: #716c53;
+  }
+
+  .ourteam-title {
+    font-size: 30px;
+    font-weight: bold;
     color: #716c53;
   }
   .Ourteam_inside {
@@ -260,6 +266,7 @@ body {
   }
 
   .FounderTeam img {
+    
     height: 100px;
   }
 }
@@ -626,6 +633,11 @@ body {
     width: fit-content;
   }
 
+  .OurteamTitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: #716c53;
+  }
   .OurteamStats {
     background-image: none;
     width: auto;
@@ -634,7 +646,7 @@ body {
   }
 
   .StatNumber {
-    font-size: 18px;
+    font-size: 22px;
   }
 
  
@@ -784,7 +796,7 @@ body {
 
 /* Dance For Fun Section Starts */
 .DFF {
-  width: 1486px;
+  
   height: 500px;
   background-image: url("/Dance_For_Fun_BG.png");
   background-size: cover;
@@ -805,7 +817,7 @@ body {
 @media (max-width: 768px) {
   .DFF {
     height: 70vh;
-    width: fit-content;
+   
   }
 
   .DFF input,
@@ -821,7 +833,7 @@ body {
   }
   .DFF {
     height: 70vh;
-    width: fit-content;
+ 
     position: relative;
     bottom: 4px;
   }
@@ -844,6 +856,7 @@ body {
 }
 
 .DFF button {
+  width: 40%;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
