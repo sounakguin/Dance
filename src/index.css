@@ -142,7 +142,6 @@ body {
   z-index: 1;
   width: 100%;
   display: flex;
-  max-width: 1485px;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -523,7 +522,6 @@ body {
   color: #716c53;
 }
 
-/* Divider styling */
 .Divider {
   display: none;
   width: 1px;
@@ -567,10 +565,9 @@ body {
     margin: 0 auto;
   }
 
-  /* Show vertical dividers on larger screens */
   .Divider {
     display: block;
-    height: 100px; /* Adjust height as needed */
+    height: 100px;
     background-color: #716c53;
   }
 }
@@ -644,7 +641,6 @@ body {
     display: none;
   }
 }
-
 
 /* Main ClassLevel container */
 .ClassLevel {
@@ -788,7 +784,7 @@ body {
 
 /* Dance For Fun Section Starts */
 .DFF {
-  width: 1486px;
+  width: 100%;
   height: 500px;
   background-image: url("/Dance_For_Fun_BG.png");
   background-size: cover;
