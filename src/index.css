@@ -142,6 +142,7 @@ body {
   z-index: 1;
   width: 100%;
   display: flex;
+  max-width: 1485px;
   justify-content: center;
   align-items: center;
   padding: 20px;
@@ -264,7 +265,6 @@ body {
 }
 
 /*Let's Dance Section*/
-
 .Dance {
   display: flex;
   flex-direction: row;
@@ -477,7 +477,6 @@ body {
     width: 165px;
   }
 }
-
 /* Our Statistic section */
 .Ourteam {
   height: 800px;
@@ -522,6 +521,7 @@ body {
   color: #716c53;
 }
 
+
 .Divider {
   display: none;
   width: 1px;
@@ -565,9 +565,10 @@ body {
     margin: 0 auto;
   }
 
+  
   .Divider {
     display: block;
-    height: 100px;
+    height: 100px; 
     background-color: #716c53;
   }
 }
@@ -591,7 +592,7 @@ body {
     font-size: 22px;
   }
 
-  /* Hide divider on smaller screens */
+  
   .Divider {
     display: none;
   }
@@ -613,7 +614,7 @@ body {
     font-size: 20px;
   }
 
-  /* Hide divider on smaller screens */
+  
   .Divider {
     display: none;
   }
@@ -636,7 +637,7 @@ body {
     font-size: 18px;
   }
 
-  /* Hide divider on smaller screens */
+ 
   .Divider {
     display: none;
   }
@@ -645,7 +646,6 @@ body {
 /* Main ClassLevel container */
 .ClassLevel {
   height: auto;
-
   background-color: white;
   background-size: cover;
   position: relative;
@@ -784,7 +784,7 @@ body {
 
 /* Dance For Fun Section Starts */
 .DFF {
-  width: 100%;
+  width: 1486px;
   height: 500px;
   background-image: url("/Dance_For_Fun_BG.png");
   background-size: cover;
@@ -823,7 +823,7 @@ body {
     height: 70vh;
     width: fit-content;
     position: relative;
-    bottom: 5px;
+    bottom: 4px;
   }
 
   .DFF input,
