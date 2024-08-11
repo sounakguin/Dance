@@ -41,8 +41,6 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-
-
 }
 
 .nav-link:hover {
@@ -88,7 +86,6 @@ body {
     display: flex;
     align-items: center;
     margin: 0;
-   
     color: black;
   }
 
@@ -125,7 +122,6 @@ body {
 /* Our Team section */
 .Ourteam1 {
   height: 800px;
-  border: 1px solid black;
   background-image: url("/BG.png");
   background-size: cover;
   position: relative;
@@ -137,7 +133,6 @@ body {
   margin: 0;
   padding: 10px 0;
 }
-
 
 .Ourteam_inside {
   position: absolute;
@@ -179,7 +174,7 @@ body {
     justify-items: center;
     align-items: center;
   }
-  .Star_text{
+  .Star_text {
     font-size: 28px;
     font-weight: bold;
   }
@@ -534,7 +529,6 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
-    
   }
   .OurteamTitle {
     font-size: 50px;
@@ -554,13 +548,11 @@ body {
     bottom: 30px;
     flex-direction: row;
     font-size: 50px;
-    
   }
   .FounderStat {
     padding-top: 50px;
     font-size: 50px;
     margin-bottom: 0%;
-    
   }
   .StatNumber {
     font-size: 50px;
@@ -626,7 +618,7 @@ body {
 /* Main ClassLevel container */
 .ClassLevel {
   height: auto;
- 
+
   background-color: white;
   background-size: cover;
   position: relative;
@@ -661,7 +653,7 @@ body {
   border-radius: 8px;
   text-align: center;
 }
-.Allboxs p{
+.Allboxs p {
   font-size: 20px;
   font-weight: bold;
 }
@@ -708,9 +700,8 @@ body {
 @media (max-width: 480px) {
   .Allboxs {
     width: fit-content;
-
   }
-  .C_box{
+  .C_box {
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -718,7 +709,6 @@ body {
     align-content: center;
     align-items: center;
     justify-content: center;
-
   }
   .join_now_button {
     font-size: 14px;
@@ -799,7 +789,7 @@ body {
 }
 
 @media (max-width: 480px) {
-  .DFQ{
+  .DFQ {
     position: relative;
   }
   .DFF {

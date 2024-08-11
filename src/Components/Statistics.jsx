@@ -4,7 +4,7 @@ export default function Ourteam() {
   return (
     <div className="Ourteam">
       <div className="OurteamContent">
-        <p className="OurteamTitle">Our Team</p>
+        <p className="OurteamTitle">Our Statistics</p>
         <p className="OurteamDescription">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
           laudantium optio cupiditate aliquam, vitae molestias, hic nemo
