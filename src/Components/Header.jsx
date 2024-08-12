@@ -131,30 +131,29 @@ const style = `
     background-color: #595447;
   }
 
-  
-  @media (max-width: 768px) {
+   @media (max-width: 768px) {
     .handle5 {
       height: auto;
       padding: 10px;
     }
 
     .Header_text {
-      padding: 10px;
       text-align: left;
-      margin-left: 10px; 
+      margin-left: 0; 
     }
 
     .herotext {
-      font-size: 1.5rem;
+      width: 210px;
+      font-size: 1.875rem; 
     }
 
     .herotext1 {
-      font-size: 1rem;
+      font-size: 1.25rem;
     }
 
     .join_now_button {
-      width: 150px;
-      font-size: 14px;
+      width: 80px;
+      font-size: 10px;
     }
 
     .react-multi-carousel-dot-list {
@@ -169,6 +168,7 @@ const style = `
       border-radius: 50%;
     }
   }
+
 
  
   @media (max-width: 1024px) {
