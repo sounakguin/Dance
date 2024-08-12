@@ -131,28 +131,31 @@ const style = `
     background-color: #595447;
   }
 
-   @media (max-width: 768px) {
+  
+  @media (max-width: 768px) {
     .handle5 {
       height: auto;
-      padding: 10px;
+ 
+   
     }
 
     .Header_text {
+      
       text-align: left;
-      margin-left: 0; 
+      margin-left: 10px; 
     }
 
     .herotext {
-      width: 210px;
-      font-size: 1.875rem; 
+   
+      font-size: 30px;
     }
 
     .herotext1 {
-      font-size: 1.25rem;
+      font-size: 10px;
     }
 
     .join_now_button {
-      width: 80px;
+      width: 50px;
       font-size: 10px;
     }
 
@@ -168,7 +171,6 @@ const style = `
       border-radius: 50%;
     }
   }
-
 
  
   @media (max-width: 1024px) {
