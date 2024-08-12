@@ -132,72 +132,76 @@ const style = `
   }
 
   
- @media (max-width: 768px) {
+  @media (max-width: 768px) {
     .handle5 {
-        height: auto;
+      height: auto;
+ 
+   
     }
 
     .Header_text {
-        text-align: left;
-        margin-left: 0; /* Removed left margin */
-        padding: 0; /* Removed padding */
+      
+      text-align: left;
+      margin-left: 10px; 
     }
 
     .herotext {
-        font-size: 30px;
+   
+      font-size: 30px;
     }
 
     .herotext1 {
-        font-size: 10px;
+      font-size: 10px;
     }
 
     .join_now_button {
-        width: 50px;
-        font-size: 10px;
+      width: 50px;
+      font-size: 10px;
     }
 
     .react-multi-carousel-dot-list {
-        display: block !important;
+      display: block !important;
     }
 
     .react-multi-carousel-dot {
-        margin: 0 2px;
-        width: 10px;
-        height: 10px;
-        background: #fff;
-        border-radius: 50%;
+      margin: 0 2px;
+      width: 10px;
+      height: 10px;
+      background: #fff;
+      border-radius: 50%;
     }
-}
+  }
 
-@media (max-width: 1024px) {
+ 
+  @media (max-width: 1024px) {
     .handle5 {
-        height: auto;
-        padding: 0; /* Removed padding */
+      height: auto;
+      padding: 20px;
     }
 
     .Header_text {
-        padding: 0; /* Removed padding */
-        text-align: left;
-        margin-left: 0; /* Removed left margin */
+      padding: 20px;
+      text-align: left;
+      margin-left: 20px; 
     }
 
     .herotext {
-        font-size: 1.7rem;
+      font-size: 1.7rem;
     }
 
     .herotext1 {
-        font-size: 1.1rem;
+      font-size: 1.1rem;
     }
 
     .join_now_button {
-        width: 180px;
-        font-size: 15px;
+      width: 180px;
+      font-size: 15px;
     }
 
     .react-multi-carousel-arrow {
-        display: none !important;
+      display: none !important;
     }
-}
+  }
 
  
   @media (min-width: 1025px) {
