@@ -141,6 +141,7 @@ body {
   transform: translateX(-50%);
   z-index: 1;
   width: 100%;
+  max-width:  1485px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -557,7 +558,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    width: 1485px;
+    width: 100%;
+    max-width:  1485px;
     bottom: 30px;
     flex-direction: row;
     font-size: 50px;
