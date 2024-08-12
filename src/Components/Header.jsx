@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-
 const responsive = {
   superLargeDesktop: {
     breakpoint: { max: 4000, min: 3000 },
@@ -26,7 +25,6 @@ export default function Header() {
   const [showArrows, setShowArrows] = useState(true);
   const [showDots, setShowDots] = useState(true);
 
-  
   const handleResize = () => {
     if (window.innerWidth < 1024) {
       setShowArrows(false);
@@ -79,7 +77,6 @@ export default function Header() {
     </Carousel>
   );
 }
-
 
 const style = `
   .handle5 {
@@ -136,17 +133,18 @@ const style = `
 
   @media (max-width: 768px) {
     .handle5 {
-      flex-direction: column;
+      flex-direction: row;
       text-align: center;
+      gap: 10px; 
     }
 
     .Header_text {
-      width: auto;
       padding: 10px;
+      text-align: left; 
     }
 
     .herotext {
-      font-size: 1.5rem;
+      font-size: 1.2rem; 
     }
 
     .herotext1 {
@@ -155,6 +153,7 @@ const style = `
 
     .join_now_button {
       width: 150px;
+      font-size: 14px;
     }
 
     .react-multi-carousel-dot-list {
@@ -172,32 +171,31 @@ const style = `
 
   @media (max-width: 480px) {
     .herotext {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     .herotext1 {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
 
     .join_now_button {
       width: 120px;
+      font-size: 12px; 
     }
   }
 
-  /* Hide arrows on mobile and tablet */
+  
   @media (max-width: 1024px) {
     .react-multi-carousel-arrow {
       display: none !important;
     }
   }
 
-  /* Styles for larger screens */
   @media (min-width: 1025px) {
     .handle5 {
       justify-content: center;
       align-items: center;
       gap: 450px;
-    
     }
 
     .handle5 img {
@@ -208,18 +206,17 @@ const style = `
     .Header_text {
       flex: 1;
       margin-left: 20px;
-      text-align: left; 
-      max-width: 500px; 
-      padding: 20px; 
-      background-color: rgba(255, 255, 255, 0.8); 
-      border-radius: 8px; 
-      
+      text-align: left;
+      max-width: 500px;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 8px;
     }
 
     .herotext {
       font-size: 5rem;
       font-weight: bold;
-        margin: 0 auto;
+      margin: 0 auto;
     }
 
     .herotext1 {
