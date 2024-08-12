@@ -131,20 +131,21 @@ const style = `
     background-color: #595447;
   }
 
+  
   @media (max-width: 768px) {
     .handle5 {
-      flex-direction: row;
-      text-align: center;
-      gap: 10px; 
+      height: auto;
+      padding: 10px;
     }
 
     .Header_text {
       padding: 10px;
-      text-align: left; 
+      text-align: left;
+      margin-left: 10px; 
     }
 
     .herotext {
-      font-size: 1.2rem; 
+      font-size: 1.5rem;
     }
 
     .herotext1 {
@@ -169,28 +170,38 @@ const style = `
     }
   }
 
-  @media (max-width: 480px) {
+ 
+  @media (max-width: 1024px) {
+    .handle5 {
+      height: auto;
+      padding: 20px;
+    }
+
+    .Header_text {
+      padding: 20px;
+      text-align: left;
+      margin-left: 20px; 
+    }
+
     .herotext {
-      font-size: 1rem;
+      font-size: 1.7rem;
     }
 
     .herotext1 {
-      font-size: 0.8rem;
+      font-size: 1.1rem;
     }
 
     .join_now_button {
-      width: 120px;
-      font-size: 12px; 
+      width: 180px;
+      font-size: 15px;
     }
-  }
 
-  
-  @media (max-width: 1024px) {
     .react-multi-carousel-arrow {
       display: none !important;
     }
   }
 
+ 
   @media (min-width: 1025px) {
     .handle5 {
       justify-content: center;
