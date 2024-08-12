@@ -200,6 +200,7 @@ body {
     background-image: url("/Shape.png");
     background-size: cover;
     width: 100%;
+    
     background-repeat: repeat;
     bottom: 25px;
   }
