@@ -141,7 +141,6 @@ body {
   transform: translateX(-50%);
   z-index: 1;
   width: 100%;
- 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -164,46 +163,6 @@ body {
 .FounderTeam img {
   max-width: 100%;
   height: auto;
-}
-
-@media (min-width: 1400px) {
-  .Ourteam1 {
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-  }
-  .Star_text {
-    font-size: 28px;
-    font-weight: bold;
-  }
-  .founder-name {
-    font-size: 35px;
-    font-weight: bold;
-    color: #716c53;
-  }
-  .founder-role {
-    color: #716c53;
-  }
-  .ourteam-title {
-    font-size: 50px;
-    font-weight: bold;
-    color: #716c53;
-  }
-
-  .ourteam-description {
-    width: 600px;
-  }
-
-  .Ourteam_inside {
-    background-image: url("/Shape.png");
-    background-size: cover;
-    width: 100%;
-    max-width: 2000px;
-    background-repeat: no-repeat;
-    bottom: 25px;
-  }
 }
 
 @media (min-width: 1200px) {
@@ -239,8 +198,7 @@ body {
   .Ourteam_inside {
     background-image: url("/Shape.png");
     background-size: cover;
-    width: 100%;
-    max-width: 1485px;
+    width: 1485px;
     background-repeat: no-repeat;
     bottom: 25px;
   }
@@ -309,7 +267,6 @@ body {
   }
 
   .FounderTeam img {
-    
     height: 100px;
   }
 }
@@ -571,7 +528,6 @@ body {
   color: #716c53;
 }
 
-
 .Divider {
   display: none;
   width: 1px;
@@ -600,8 +556,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 300px;
-    width: 100%;
-    max-width:  1485px;
+    width: 1485px;
     bottom: 30px;
     flex-direction: row;
     font-size: 50px;
@@ -616,10 +571,9 @@ body {
     margin: 0 auto;
   }
 
-  
   .Divider {
     display: block;
-    height: 100px; 
+    height: 100px;
     background-color: #716c53;
   }
 }
@@ -643,7 +597,6 @@ body {
     font-size: 22px;
   }
 
-  
   .Divider {
     display: none;
   }
@@ -665,7 +618,6 @@ body {
     font-size: 20px;
   }
 
-  
   .Divider {
     display: none;
   }
@@ -693,7 +645,6 @@ body {
     font-size: 22px;
   }
 
- 
   .Divider {
     display: none;
   }
@@ -840,7 +791,6 @@ body {
 
 /* Dance For Fun Section Starts */
 .DFF {
-  
   height: 500px;
   background-image: url("/Dance_For_Fun_BG.png");
   background-size: cover;
@@ -853,43 +803,19 @@ body {
   text-align: center;
   padding: 20px;
 }
+
 .DFF1 {
   font-size: 40px;
   font-weight: bold;
 }
 
-@media (max-width: 768px) {
-  .DFF {
-    height: 70vh;
-   
-  }
-
-  .DFF input,
-  .DFF button {
-    width: 80%;
-    margin: 10px 0;
-  }
-}
-
-@media (max-width: 480px) {
-  .DFQ {
-    position: relative;
-  }
-  .DFF {
-    height: 70vh;
- 
-    position: relative;
-    bottom: 4px;
-  }
-
-  .DFF input,
-  .DFF button {
-    width: 90%;
-  }
-}
-
-.DFF p {
-  margin: 10px 0;
+.DFF .input-button-container {
+  display: flex;
+  flex-direction: row; /* Display in a row by default */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Add space between input and button */
+  width: 100%;
 }
 
 .DFF input {
@@ -897,20 +823,66 @@ body {
   border: none;
   border-radius: 5px;
   margin: 10px 0;
+  flex: 1; /* Allow the input to take up available space */
 }
 
 .DFF button {
-  width: 40%;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   background-color: #716c53;
   color: white;
   cursor: pointer;
+  flex-shrink: 0; /* Prevent the button from shrinking */
 }
 
 .DFF button:hover {
   background-color: #595447;
+}
+
+/* Tablet and mobile styles */
+@media (max-width: 768px) {
+  .DFF {
+    height: 70vh;
+  }
+
+  .DFF .input-button-container {
+    flex-direction: column; /* Stack input and button vertically */
+    width: 80%; /* Adjust width for smaller screens */
+  }
+
+  .DFF input,
+  .DFF button {
+    width: 100%; /* Ensure full width for input and button */
+    margin: 10px 0; /* Add margin between elements */
+  }
+}
+
+@media (max-width: 480px) {
+  .DFQ {
+    position: relative;
+  }
+
+  .DFF {
+    height: 70vh;
+    position: relative;
+    bottom: 4px;
+  }
+
+  .DFF .input-button-container {
+    width: 100%;
+  }
+
+  .DFF input {
+    width: 100%;
+  }
+  .DFF button {
+    width: 50%;
+  }
+}
+
+.DFF p {
+  margin: 10px 0;
 }
 
 /*Footer Section starts*/
